@@ -26,4 +26,4 @@ Green channel image is separated as the blood vessel appears brighter in the gre
 
 ![alt text](retinaExudates.png)
 
-Green channel is used to detect the blood vessel and exudates. They both are separated by morphological operations. CLAHE is an adaptive extension of Histogram Equalization which helps in dynamic preservation of the local contrast characteristics of an image. We apply morphological operation to dilate the image. The closing operation is defined as dilation followed by erosion(median filter). Erosion shrinks objects in a binary image.
+Green channel is used to detect the exudates. Morphological operations are applied. CLAHE is an adaptive extension of Histogram Equalization which helps in dynamic preservation of the local contrast characteristics of an image. We apply morphological operation to dilate the image. The closing operation is defined as dilation followed by erosion(median filter). Erosion shrinks objects in a binary image.
