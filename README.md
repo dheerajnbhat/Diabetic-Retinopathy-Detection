@@ -8,6 +8,7 @@ It is complication of diabetes that affects the eyes. Diabetic retinopathy is ca
 ## Requirements
 
 opencv
+
 scikit
 
 ## To Run
