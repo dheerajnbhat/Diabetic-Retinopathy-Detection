@@ -8,21 +8,25 @@ It is complication of diabetes that affects the eyes. Diabetic retinopathy is ca
 ## Requirements
 
 opencv
+
 scikit
 
 ## To Run
 
 python extract.py -v retina.png -e retina.png
 
+## Fundus Image
 
-## Blood vessels
+![alt text](retina.png)
+
+## Blood vessels Extraction
 
 ![alt text](retinaVessels.png)
 
 Green channel image is separated as the blood vessel appears brighter in the green channel image. Then we apply Kirsch filter to remove the noise in the input image. The Kirsch Edge module detects edges using eight compass filters. All eight filters are applied to the image with the maximum being retained for the final image. The eight filters are a rotation of a basic compass convolution filter. Histogram equalization is applied to the filtered image.
 
 
-## Exudates
+## Exudates Extraction
 
 ![alt text](retinaExudates.png)
 
